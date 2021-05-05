@@ -260,6 +260,15 @@ body::-webkit-scrollbar
             color: white;
         }
 
+        .lst_content-highlight2
+        {
+            color: black;
+            background-color: white;
+            border: solid;
+            border-width: 2px;
+            padding: 1px;
+        }
+
         .lst__content.lvl1 li
         {
             margin: 2vh 0;
