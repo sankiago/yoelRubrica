@@ -309,6 +309,8 @@ body::-webkit-scrollbar
     border: solid;
     border-width: 0.222469vw;
     border-radius: 2vw;
+    height: 50vh;
+    margin-top: 3vh;
 }
 
 .btn
