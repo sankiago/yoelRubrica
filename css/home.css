@@ -137,8 +137,12 @@ body::-webkit-scrollbar
         {
             font-family: 'Schoolbell', cursive;
             letter-spacing: 0.1vw;
-            border: solid;
+        }
+
+        .outside-line
+        {
             padding: 4vw;
+            border: solid;
             border-radius: 2vw;
             margin-bottom: 1vh;
         }
@@ -269,6 +273,13 @@ body::-webkit-scrollbar
             padding: 1px;
         }
 
+        .lst_content-highlight3
+        {
+            padding: 1px;
+            border-bottom: solid;
+            border-width: 1px;
+        }
+
         .lst__content.lvl1 li
         {
             margin: 2vh 0;
@@ -322,6 +333,14 @@ body::-webkit-scrollbar
     margin-top: 3vh;
 }
 
+.embedVideos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .btn
 {
     width: 11vw;
@@ -339,6 +358,7 @@ body::-webkit-scrollbar
     font-family: 'DM Sans';
     border-style: solid;
     font-size: 1.1vw;
+    font-weight: 500;
 
     display: flex;
     justify-content: center;
