@@ -341,6 +341,55 @@ body::-webkit-scrollbar
     align-items: center;
 }
 
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border:solid;
+    border-right: none;
+}
+
+.grid-body
+{
+    padding: 3vw;
+    border:solid;
+}
+
+.start-head
+{
+    border-start-start-radius: 50px;
+    border-top: none;
+}
+
+.start-body
+{
+    border-start-end-radius: 50px;
+}
+
+.end-head
+{
+    border-end-start-radius: 50px;
+    border-bottom: none;
+}
+
+.end-body
+{
+    border-end-end-radius: 50px;
+}
+
+
 .btn
 {
     width: 11vw;
